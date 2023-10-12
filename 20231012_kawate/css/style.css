@@ -1,18 +1,22 @@
 body {
     height: 700px;
 }
+
 .header {
     display: flex;
     justify-content: space-between;
 }
-.header__left  {
+
+.header__left {
     font-size: 30px;
     margin: 15px 30px;
     color: blue;
 }
+
 nav {
     text-align: center;
 }
+
 nav ul li {
     list-style: none;
     display: inline-block;
@@ -20,26 +24,34 @@ nav ul li {
     width: 20%;
     min-width: 120px;
 }
-.header__right{
+
+.header__right {
     font-size: 20px;
     text-decoration: none;
     font-weight: bold;
-    color:blue;
+    color: blue;
 }
+
 .img__box {
     position: relative;
     top: 350px;
-    width: 1100px;
+    width: 85%;
     height: 200px;
+    display: block;
     background-color: blue;
 }
-.card__img img{
+
+.card__img {
     position: absolute;
     top: -300px;
-    left: 850px;
-    width: 700px;
-    height: 400px;
+    left: 1220px;
 }
+
+.card__img img {
+    width: 700px;
+    height: 450px;
+}
+
 .img__text {
     font-size: 50px;
     font-weight: lighter;
