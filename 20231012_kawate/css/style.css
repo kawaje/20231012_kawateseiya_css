@@ -35,10 +35,10 @@ nav ul li {
 .img__box {
     position: absolute;
     top: 300px;
-    right: 70%;
+    right: 50%;
     z-index: -10;
     width: 1450px;
-    height: 200px;
+    height: 150px;
     background-color: blue;
 }
 
@@ -46,8 +46,8 @@ nav ul li {
     position: relative;
     top: 100px;
     z-index: 1;
-    left: 65%;
-    width: 35%;
+    left: 50%;
+    width: 50%;
 }
 
 .card {
