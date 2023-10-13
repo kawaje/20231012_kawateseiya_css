@@ -35,7 +35,7 @@ nav ul li {
 .img__box {
     position: relative;
     top: 350px;
-    width: 85%;
+    width: %;
     height: 200px;
     display: block;
     background-color: blue;
@@ -44,12 +44,12 @@ nav ul li {
 .card__img {
     position: absolute;
     top: -300px;
-    left: 1220px;
+    left: 65%;
+    width: 35%;
 }
 
 .card__img img {
-    width: 700px;
-    height: 450px;
+    width: 100%;
 }
 
 .img__text {
